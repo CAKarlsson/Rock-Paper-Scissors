@@ -1,0 +1,21 @@
+body {
+    background-color: #6B5B95;
+}
+
+.header-h1 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.result {
+    text-align: center;
+}
+
+.result-p {
+    margin-bottom: 50px;
+}
+
+.btn {
+    height: 60px;
+    width: 60px;
+}
