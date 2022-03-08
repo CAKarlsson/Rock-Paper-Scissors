@@ -4,7 +4,7 @@ body {
 
 .header-h1 {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 25px;
 }
 
 .game-box {
@@ -12,7 +12,7 @@ body {
 }
 
 .game-p {
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 .btn {
