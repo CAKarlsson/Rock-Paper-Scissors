@@ -20,6 +20,31 @@ body {
     width: 70px;
 }
 
+.btnRock:hover {
+    background-color: gray;
+    color: black;
+}
+
+.btnLizard:hover {
+    background-color: green;
+    color: black;}
+
+.btnSpock:hover {
+    background-color: black;
+    color: black;
+}
+
+.btnPaper:hover {
+    background-color: #FAD02C;
+    color: black;
+}
+
+.btnScissors:hover {
+    background-color: red;
+    color: black;
+}
+
+
 .fa-regular  {
     font-size: 30px;
 }
@@ -43,3 +68,10 @@ body {
     color: #FAD02C;
 }
 
+.btn:hover > i {
+    color:black
+}
+
+.btn:hover > .fa-hand-spock {
+    color:white
+}
