@@ -24,4 +24,14 @@ function compare(comChoice) {
 		} else {
 			return "paper beats spock <br> You Win!";
 		}
+	} else if (userChoice === "scissors") {
+		if (comChoice === "rock") {
+			return "rock beats scissors <br> You Lose";
+		} else if (comChoice === "paper") {
+			return "scissors beats paper <br> You Win!";
+		} else if (comChoice === "lizard") {
+			return "scissors beats lizard <br> You Win!";
+		} else {
+			return "spock beats scissors <br> You Lose";
+		}
 	}
