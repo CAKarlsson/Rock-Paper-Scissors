@@ -23,3 +23,23 @@ body {
 .fa-regular  {
     font-size: 30px;
 }
+
+.fa-hand-back-fist {
+    color: gray;
+}
+.fa-hand-lizard {
+    color: green;
+}
+
+.fa-hand-scissors {
+    color: red;
+}
+
+.fa-hand-spock {
+    color: black;
+}
+
+.fa-hand {
+    color: #FAD02C;
+}
+
