@@ -4,18 +4,22 @@ body {
 
 .header-h1 {
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
-.result {
+.game-box {
     text-align: center;
 }
 
-.result-p {
-    margin-bottom: 50px;
+.game-p {
+    margin-bottom: 35px;
 }
 
 .btn {
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
+}
+
+.fa-regular  {
+    font-size: 30px;
 }
