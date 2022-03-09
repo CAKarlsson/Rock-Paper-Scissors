@@ -13,6 +13,7 @@ body {
 
 .game-p {
     margin-bottom: 25px;
+    font-size: 120%;
 }
 
 .btn {
@@ -75,3 +76,5 @@ body {
 .btn:hover > .fa-hand-spock {
     color:white
 }
+
+
