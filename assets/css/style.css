@@ -1,5 +1,6 @@
 body {
     background-color: #6B5B95;
+    color: white;
 }
 
 .header-h1 {
@@ -12,8 +13,12 @@ body {
 }
 
 .game-p {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     font-size: 120%;
+}
+
+.result p:last-of-type {
+    font-size: 140%;
 }
 
 .btn {
