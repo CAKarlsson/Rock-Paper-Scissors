@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
+
 <body>
     <header>
         <h1 class="header-h1">
@@ -24,17 +26,56 @@
             <div id="computer-label">
                 Computer:<span id="computer-score">0</span>
             </div>
-        <p class="game-p"><b>Choose wisely...</b></p>
+            <p class="game-p"><b>Choose wisely...</b></p>
             <div class="playButtons">
-                <button class="btn btn-lg btn-success btnRock" id="rock" aria-label="Rock button"><i class="fa-regular fa-hand-back-fist"></i></button>
-                <button class="btn btn-lg btn-success btnPaper" id="paper" aria-label="Paper button"><i class="fa-regular fa-hand"></i></button>
-                <button class="btn btn-lg btn-success btnScissors" id="scissors" aria-label="Scissors button"><i class="fa-regular fa-hand-scissors"></i></button>
-                <button class="btn btn-lg btn-success btnLizard" id="lizard" aria-label="Lizard button"><i class="fa-regular fa-hand-lizard"></i></button>
-                <button class="btn btn-lg btn-success btnSpock" id="spock" aria-label="Spock button"><i class="fa-regular fa-hand-spock"></i></button>
+                <button class="btn btn-lg btn-success btnRock" id="rock" aria-label="Rock button"><i
+                        class="fa-regular fa-hand-back-fist"></i></button>
+                <button class="btn btn-lg btn-success btnPaper" id="paper" aria-label="Paper button"><i
+                        class="fa-regular fa-hand"></i></button>
+                <button class="btn btn-lg btn-success btnScissors" id="scissors" aria-label="Scissors button"><i
+                        class="fa-regular fa-hand-scissors"></i></button>
+                <button class="btn btn-lg btn-success btnLizard" id="lizard" aria-label="Lizard button"><i
+                        class="fa-regular fa-hand-lizard"></i></button>
+                <button class="btn btn-lg btn-success btnSpock" id="spock" aria-label="Spock button"><i
+                        class="fa-regular fa-hand-spock"></i></button>
             </div>
-        <div class="result"></div>
+            <div class="result"></div>
+        </div>
     </div>
+    <footer>
+        <button aria-label="Rules" onclick="show()" class="footer-rules" id="rules">
+            Rules
+        </button>
+        <p id="rules-text" class="hidden">
+            Pick a weapon:
+            <br />
+            Rock, paper, scissors, lizard or spock.
+            <br />
+            Winner gets a point.
+            <br />
+            Scissors beats Lizard
+            <br />
+            Paper beats Rock
+            <br />
+            Rock beats Scissors
+            <br />
+            Lizard beats Spock
+            <br />
+            Spock beats Scissors
+            <br />
+            Scissors beats Paper
+            <br />
+            Lizard beats Paper
+            <br />
+            Paper beats Spock
+            <br />
+            Spock beats Rock
+            <br />
+            Rock beats Lizard
+            <br />
+    </footer>
     <script src="https://kit.fontawesome.com/1270f0bbb6.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>

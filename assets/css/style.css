@@ -10,6 +10,7 @@ body {
 
 .game-box {
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .game-p {
@@ -19,6 +20,7 @@ body {
 
 .result p:last-of-type {
     font-size: 140%;
+    margin-bottom: 45px;
 }
 
 .btn {
@@ -33,7 +35,8 @@ body {
 
 .btnLizard:hover {
     background-color: green;
-    color: black;}
+    color: black;
+}
 
 .btnSpock:hover {
     background-color: black;
@@ -51,13 +54,14 @@ body {
 }
 
 
-.fa-regular  {
+.fa-regular {
     font-size: 30px;
 }
 
 .fa-hand-back-fist {
     color: gray;
 }
+
 .fa-hand-lizard {
     color: green;
 }
@@ -74,12 +78,42 @@ body {
     color: #FAD02C;
 }
 
-.btn:hover > i {
-    color:black
+.btn:hover>i {
+    color: black
 }
 
-.btn:hover > .fa-hand-spock {
-    color:white
+.btn:hover>.fa-hand-spock {
+    color: white
 }
 
+footer {
 
+    width: 100vw;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    padding-top: 1px;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #6B5B95;
+    position: fixed;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer-rules {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    letter-spacing: 1px;
+    margin: 3px;
+    width: 90px;
+    height: 40px;
+    border-style: solid;
+}
+
+#rules-text {
+    text-align: center;
+}
